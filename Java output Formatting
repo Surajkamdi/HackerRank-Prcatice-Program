@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Solution {
+
+    public static void main(String[] args) {
+            Scanner sc=new Scanner(System.in);
+            System.out.println("================================");
+            for(int i=0;i<3;i++)
+            {
+                        String s1=sc.next();// It Will take String Input
+                        int x=sc.nextInt();//It will take Integer Input
+                        System.out.printf("%-14s %03d",s1,x); //as %d & %s is used to print String and Integer respectively in generic Methods
+                        System.out.println();//It Will add New Line
+                //Complete this line
+            }
+        System.out.println("================================");
+    }
+    
+    //Happy Coding to All
+    //Written by Er. Suraj Kamdi //my Code is Open for all and you can add changes in code as per your requirement
+    //given Problem is Property of Hackerrank.com .Please use Problem & Solutions for your Knowledge purpose with proper authorization
+}
